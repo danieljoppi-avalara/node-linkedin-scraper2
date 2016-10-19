@@ -21,7 +21,7 @@ describe('<LinkedIn Scraper>', function() {
         should(profile).have.property('educations').length(1);
         should(profile).have.property('positions').length(8);
         //should(profile).have.property('honors').length(0);
-        should(profile).have.property('projects').length(5;
+        should(profile).have.property('projects').length(5);
         should(profile).have.property('publicProfileUrl', url);
     }
 
